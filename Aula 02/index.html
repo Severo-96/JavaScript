@@ -1,0 +1,51 @@
+<!--HTML-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Aula 02 - JavaScript</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+
+        <section class="form">
+            <h1>Comparação de Dois Números</h1>
+            <form class="inputs">
+                <div class="input">
+                    <label for="num1">1º Número:</label>
+                    <input id="num1" type="number" name="num1"/>
+                </div>
+                <div class="input">
+                    <label for="num2">2º Número:</label>
+                    <input id="num2" type="number" name="num2"/>
+                </div>
+            </form>
+            <button type="button" id="buttonnum">Comparação dos Números</button>
+            <p id="numresult"></p>          
+        </section>
+
+        <section class="form">
+            <h1>Comparação do Tamanho de Duas Strings</h1>
+            <form class="inputs">
+                <div class="input">
+                    <label for="string1">1ª String:</label>
+                    <input id="string1" type="text" name="string1"/>
+                </div>
+                <div class="input">
+                    <label for="string2">2º String:</label>
+                    <input id="string2" type="text" name="string2"/>
+                </div>
+            </form> 
+            <button type="button" id="stringbutton">Comparação das Strings</button>
+            <p id="stringresult"></p>         
+        </section>
+               
+        <script type="text/javascript" src="./index.js"></script>
+
+    </body>
+</html>

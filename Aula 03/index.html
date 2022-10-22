@@ -1,0 +1,45 @@
+<!--HTML-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Aula 03 - JavaScript</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+
+        <section class="form">
+            <h1>Calculadora!</h1>
+            <form class="inputs">
+                <div class="input">
+                    <label for="operando1">1º Número:</label>
+                    <input id="operando1" type="number" name="operando1"/>
+                </div>
+                <div class="operators">
+                    <label for="operator">Operação:</label>
+                    <select required id="operator">
+                        <option value="invalid" selected="selected" disabled=""> </option>
+                        <option value="sum">Soma (+)</option>
+                        <option value="sub">Subtração (-)</option>
+                        <option value="mult">Multiplicação (x)</option>
+                        <option value="div">Divisão (÷)</option>
+                    </select>
+                </div>
+                <div class="input">
+                    <label for="operando2">2º Número:</label>
+                    <input id="operando2" type="number" name="operando2"/>
+                </div>   
+                <button type="button" id="button">Calcular</button>            
+            </form>
+            <p id="result"></p>          
+        </section>
+               
+        <script type="text/javascript" src="./index.js"></script>
+
+    </body>
+</html>

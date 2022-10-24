@@ -1,0 +1,45 @@
+<!--HTML-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Aula 03 - JavaScript</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+
+        <section>
+            <h1>Selecione o Produto Desejado!</h1>
+            <form>
+                <div>
+                    <label for="product">Produtos:</label>
+                    <select required id="product">
+                        <option value="invalid" selected="selected" disabled=""> </option>
+                        <option value="apple">Maça</option>
+                        <option value="pear">Pera</option>
+                        <option value="papaya">Mamão</option>
+                        <option value="guava">Goiaba</option>
+                        <option value="grape">Uva</option>
+                    </select>
+                </div>
+
+                <button type="button" id="button">Exibir</button>            
+            </form>
+            <figure>
+                <img src="./Imagens/apple.jpg" alt="apple" id="imgapple">
+                <img src="./Imagens/pear.jpg" alt="pear" id="imgpear">
+                <img src="./Imagens/papaya.jpg" alt="papaya" id="imgpapaya">
+                <img src="./Imagens/guava.png" alt="guava" id="imgguava">
+                <img src="./Imagens/grape.jpeg" alt="grape" id="imggrape">
+            </figure>     
+        </section>
+               
+        <script type="text/javascript" src="./index.js"></script>
+
+    </body>
+</html>

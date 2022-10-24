@@ -10,7 +10,7 @@ document.getElementById("button").addEventListener("click", function() {
 
         default:
             day = document.getElementById("day");
-            day.textContent = "Dia: " + date.getDate() + ".";          //esse nao ta funcionando, e é por conta dos meses de 31 dias
+            day.textContent = "Dia: " + date.getUTCDate() + ".";          //esse nao ta funcionando, e é por conta dos meses de 31 dias
 
             month = document.getElementById("month");
             month.textContent = "Mês: " + (date.getMonth() + 1) + ".";

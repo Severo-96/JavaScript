@@ -103,6 +103,6 @@ document.getElementById("button").addEventListener("click", function() {
             }
 
             value = document.getElementById("value");
-            value.textContent = "Desde 01/01/1970 se passaram " + date.getTime() + "ms.";
+            value.textContent = "Timestamp: " + date.getTime() + "ms.";
     }
 });

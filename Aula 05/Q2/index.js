@@ -1,7 +1,7 @@
 //JavaScript
 
 document.getElementById("button").addEventListener("click", function() {
-    let date = new Date(document.getElementById("date").value);        //Pq usa esse new?
+    let date = new Date(document.getElementById("date").value);
     
     switch (date){
         case (isNaN(date)):
@@ -10,7 +10,7 @@ document.getElementById("button").addEventListener("click", function() {
 
         default:
             day = document.getElementById("day");
-            day.textContent = "Dia: " + date.getUTCDate() + ".";          //esse nao ta funcionando, e é por conta dos meses de 31 dias
+            day.textContent = "Dia: " + date.getUTCDate() + "."; 
 
             month = document.getElementById("month");
             month.textContent = "Mês: " + (date.getMonth() + 1) + ".";

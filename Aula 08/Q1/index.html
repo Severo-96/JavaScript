@@ -1,0 +1,66 @@
+<!--HTML-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Aula 08 - JavaScript</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+
+        <main>
+            <h1>Faça seu cadastro!</h1>
+            <form>
+                <div>
+                    <label for="name">Nome:</label>
+                    <input id="name" type="string" name="name"/>
+                </div>
+                <div>
+                    <label for="date">Nascimento:</label>
+                    <input class="date" id="day" type="text" name="day" maxlength="2" placeholder="Dia"/>
+                    <p>/</p>
+                    <input class="date" id="month" type="text" name="month" maxlength="2" placeholder="Mês"/>
+                    <p>/</p>
+                    <input class="date" id="year" type="text" name="year" maxlength="4" placeholder="Ano"/>
+                </div>
+                <div>
+                    <label for="weight">Peso (kg):</label>
+                    <input id="weight" type="string" name="weight" maxlength="7"/>
+                </div>
+                <div>
+                    <label for="height">Altura (cm):</label>
+                    <input id="height" type="string" name="height" maxlength="3"/>
+                </div>
+                <div>
+                    <label for="gender">Gênero:</label>
+                    <select required id="gender">
+                        <option value="invalid" selected="selected" disabled=""> </option>
+                        <option value="Masculino">Masculino</option>
+                        <option value="Feminino">Feminino</option>
+                    </select>
+                </div>
+                <button type="button" id="button">Cadastrar</button>            
+            </form>
+            <section>
+                <div class="result">
+                    <p id="pname"></p>
+                    <p id="pdate"></p>
+                    <p id="pweight"></p>
+                    <p id="pheight"></p>
+                    <p id="pgender"></p>
+                </div>
+                <div class="result">
+                    <p id="stringfy"></p>
+                </div>
+            </section>     
+        </main>
+               
+        <script type="text/javascript" src="./index.js"></script>
+
+    </body>
+</html>

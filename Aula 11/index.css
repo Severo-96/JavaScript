@@ -1,0 +1,172 @@
+/*CSS*/
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: linear-gradient(to top right,#383636 0%,#c2c2c2 100%);
+
+    height: 100vh;
+    width: 100vw;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    align-items:center ;
+    justify-content: space-around;
+    overflow: hidden;
+
+    height: 90%;
+    width: 90%;
+    border-radius: 20px;
+
+    color: white;
+    
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    height: 70%;
+    width: 45%;
+    background-color: rgba(226, 14, 14, 0.712);
+    border-radius: 20px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: auto;
+    width: auto;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+label {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 16px;
+}
+
+input {
+    background: #fafafa;
+    box-shadow: inset 0 1px 3px 0 rgb(0 0 0 / 80%);
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding: 7px;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+}
+
+textarea {
+    background: #fafafa;
+    box-shadow: inset 0 1px 3px 0 rgb(0 0 0 / 80%);
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding: 5px;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+}
+
+button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    
+    box-shadow: 0 4px #999;
+    
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+
+    width: auto;
+}
+
+button:hover {background-color: #357737}
+
+button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 1px #666;
+  transform: translateY(4px);
+}
+
+
+p {
+    font-family: Roboto, Helvetica, sans-serif;
+    font-size: 18px;
+
+    line-height: 25px;
+
+    overflow-wrap: break-word;
+}
+
+.tableside {
+    width: 45%;
+    max-height: 100%;
+}
+
+.tablecont {
+    overflow-y: auto;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: aliceblue;
+    color: black;
+}
+
+table {
+    border: 2px solid black;
+    width: 100%;
+    background-color: rgb(224, 235, 243);
+    color: black;
+}
+
+tr {
+    width: 100%;
+    text-align: center;
+    font-weight: 30px;
+    text-transform: capitalize;
+    border-bottom: 2px black;
+}
+
+td {
+    width: 20%;
+    padding: 5px;
+}
+
+.link{
+    cursor: pointer;
+}
+
+.fBody {
+
+    display: flex;
+    flex-direction: column;
+
+    background-color: rgba(226, 14, 14, 0.712);
+    border-radius: 10px;
+    
+}

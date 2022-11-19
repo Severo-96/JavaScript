@@ -1,0 +1,105 @@
+/*CSS*/
+
+* {
+    border: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: Roboto, Helvetica, sans-serif;
+    font-size: 16px;
+
+    background-color: rgb(0, 0, 0, 0.3);
+    height: 100vh;
+    width: 100vw;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+
+    height: 150px;
+    width: 300px;
+    background-color: rgb(26, 26, 26);
+    border-radius: 20px;
+
+    color: white;
+    
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    height: 53%;
+    width: 100%;
+    background-color: rgba(226, 14, 14, 0.712);
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 10px;
+
+    width: 30%;
+}
+
+input {
+    height: 20px;
+    font-size: 14px;
+    padding-left: 5px;
+}
+
+select {
+    height: 25px;
+    font-size: 14px;
+}
+
+label {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    text-align: center;
+
+    padding: 2px;
+
+    height: 35%;
+    width: 100%;
+}
+
+p {
+    font-family: Roboto, Helvetica, sans-serif;
+    font-size: 16px;
+
+    line-height: 20px;
+
+    height: 95%;
+    width: 95%;
+
+    overflow-wrap: break-word;
+    
+}

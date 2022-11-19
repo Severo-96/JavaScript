@@ -1,0 +1,58 @@
+<!--HTML-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Aula 10 - JavaScript</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+
+        <main>
+            <form>
+                <h1>Cadastre seu Produto!</h1>
+                <div>
+                    <label for="product">Produto:</label>
+                    <input id="product" type="string" name="product"/>
+                </div>
+                <div>
+                    <label for="description">Descrição:</label>
+                    <textarea id="description" name="description" rows="4" cols="25"></textarea>
+                </div>
+                <div>
+                    <label for="value">Valor:</label>
+                    <input id="value" type="string" name="value"/>
+                </div>
+                <div>
+                    <button type="button" id="include">Incluir Produto</button> 
+                    <button type="button" id="list">Listar Produtos</button> 
+                    <button type="button" id="edit">Confirmar Edição</button> 
+                    <button type="button" id="cancel">Cancelar Edição</button> 
+                </div>  
+                <div>
+                    <p id="msg"></p>
+                </div>
+            </form>
+            <div class="tablecont">
+                <table>
+                    <theader>
+                        <td>ID</td>
+                        <td>Produto</td>
+                        <td>Valor</td>
+                        <td>Editar</td>
+                        <td>Apagar</td>
+                    </theader>
+                    <tbody id="table"></tbody>
+                </table>
+            </div>
+        </main>
+               
+        <script type="text/javascript" src="./index.js"></script>
+
+    </body>
+</html>

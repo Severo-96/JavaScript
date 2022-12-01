@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Aula 15 - JavaScript</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body >
+
+        <main >
+            <h1>TIMER</h1>
+            <div>
+                <select required id="min" class="select">
+                    <option value="0" selected="selected">00</option>
+                </select>
+                <label for="min">Minutos</label>
+
+                <select required id="sec" class="select">
+                    <option value="0" selected="selected">00</option>
+                </select>
+                <label for="sec">Segundos</label>
+            </div>
+
+            <button type="button" id="start">Iniciar Timer!</button>
+            <button type="button" id="stop">Parar Timer!</button>
+
+            <h2 id="text">00:00</h2>
+            <h2 id="text2">O tempo esta acabando!</h2>
+        </main>
+
+        <script type="text/javascript" src="./index.js"></script>
+    </body>
+</html>

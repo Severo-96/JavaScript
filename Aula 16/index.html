@@ -1,0 +1,57 @@
+<!--HTML-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Aula 16 - JavaScript</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+
+        <main>
+            <form>
+                <h1>Cotação</h1>
+                <div>
+                    <label for="coin">Moeda:</label>
+                    <select required id="coin">
+                        <option value="EUR">Euro</option>
+                        <option value="USD">Dolár</option>
+                        <option value="JPY">Iene</option>
+                        <option value="GBP">Libra Esterlina</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="date1">Data Inicial:</label>
+                    <input id="date1" type="date" name="date1"/>
+                </div>
+                <div>
+                    <label for="date2">Data Final:</label>
+                    <input id="date2" type="date" name="date2"/>
+                </div>
+                <button type="button" id="button">Consultar Cotação</button> 
+            </form>
+
+            <div class="tablecont">
+                <table>
+                    <theader>
+                        <td>Data</td>
+                        <td>Hora</td>
+                        <td>Compra</td>
+                        <td>Venda</td>
+                        <td>Mínimo</td>
+                        <td>Máximo</td>
+                    </theader>
+                    <tbody id="table"></tbody>
+                </table>
+            </div>
+        </main>
+               
+        <script type="text/javascript" src="./index.js"></script>
+
+    </body>
+</html>

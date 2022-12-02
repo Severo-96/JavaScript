@@ -1,0 +1,44 @@
+<!--HTML-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Aula 17 - JavaScript</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+
+        <main>
+            <form>
+                <h1>Consultar CEP</h1>
+                <div>
+                    <div class="label">
+                        <label for="cep">CEP:</label>
+                        <input id="cep" type="text" name="cep" maxlength="8"/>
+                    </div>
+                    <button type="button" id="consult">Consultar</button> 
+                </div>
+                <div>
+                    <p id="adr"></p>
+                    <p id="nbr"></p>
+                    <p id="city"></p>
+                    <p id="state"></p>
+                    <p id="lat"></p>
+                    <p id="lon"></p>
+                    <button type="button" id="map">Exibir Mapa</button> 
+                </div>
+            </form>
+            <section>
+                <iframe id="iframe"></iframe>
+            </section>
+        </main>
+               
+        <script type="text/javascript" src="./index.js"></script>
+
+    </body>
+</html>

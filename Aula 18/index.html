@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Aula 18 - JavaScript</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+
+        <main>
+            <form>
+                <h1>Previsão do Tempo</h1>
+                <div>
+                    <div class="label">
+                        <label for="state">Estado:</label>
+                        <select required id="state">
+                        </select>
+                    </div>
+                    <div class="label">
+                        <label for="city">Cidade:</label>
+                        <select required id="city"></select>
+                    </div>
+                </div>
+            </form>
+            <div class="tablecont">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Data</th>
+                            <th>Dia</th>
+                            <th>Ícone</th>
+                            <th>Resumo</th>
+                            <th>Temp. Máx.</th>
+                            <th>Temp. Mix.</th>
+                        </tr>
+                    </thead>
+                    <tbody id="table"></tbody>
+                </table>
+            </div>
+        </main>
+               
+        <script type="text/javascript" src="./index.js"></script>
+
+    </body>
+</html>
